@@ -2,6 +2,9 @@
 
 A simple PHP CLI-based Task Manager that allows you to manage tasks via command line — with support for file-based storage (JSON) and optional MySQL database sync.
 
+## project URL 
+https://roadmap.sh/projects/task-tracker
+
 ---
 
 ## 🚀 Features
@@ -26,11 +29,11 @@ A simple PHP CLI-based Task Manager that allows you to manage tasks via command 
 
 ### 1. Clone the repository
 
-```bash
+
 git clone https://github.com/simomrh/tasks-cli.git
 cd tasks-cli
 
-## 📦 2. Start XAMPP
+ 📦 2. Start XAMPP
 Start Apache and MySQL using the XAMPP Control Panel
 
 Open phpMyAdmin
@@ -54,10 +57,6 @@ Run the following SQL to create the tasks table:
 composer install
 
 
-## 🛠 Usage
+## 🛠 5. Usage
 
 php src/cli.php add "Finish README" --db
-
-
-## project URL 
-http://localhost/New%20php/store/task.json
